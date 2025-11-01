@@ -35,11 +35,3 @@ This small system calculates costs for floor cleaning, roof inspection, applianc
 - Returns $300 if ≤ 800 sq ft  
 - Adds $50 per 200 sq ft beyond 800  
 
-## Example Usage
-
-from pricing import clean_floor, inspect_roof, install_appliances, yard_cleanup
-
-print(clean_floor(750))              # Output: 300
-print(inspect_roof("tile"))          # Output: 500
-print(install_appliances(3, True))   # Output: 800
-print(yard_cleanup(300, 400))        # Output: 300

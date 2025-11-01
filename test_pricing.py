@@ -3,8 +3,7 @@ from pricing import *
 
 
 # The comments with each test explain how to calculate the pricing for
-# each service Hiro offers. Assertions may also be included for a few
-# unexpected values.
+# each service Hiro offers. 
 class TestPricing(unittest.TestCase):
 
     # Price is based on the square footage to be cleaned:

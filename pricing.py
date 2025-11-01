@@ -2,6 +2,9 @@
  This program tests the pricing of each of the offered services
  """
 
+"""
+2nd and 3rd modification at 12:51 pm 2025/10/31
+"""
 def clean_floor(area):
     
     if not isinstance(area, (int, float)) or area <= 0:
